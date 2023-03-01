@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>   
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div id="loading">
+        <img src="assets/loading.gif" alt="">
+    </div>
+
+    <div id="conteudo" style="display: none">
+        <nav class="desktop-menu">
+            <ul>
+                <li><a href="#experiencia">Experiência</a></li>
+                <li><a href="#educacao">Educação</a></li>
+                <li><a href="#cursos">Cursos</a></li>
+                <li><a href="#hardskills">Hard Skills</a></li>
+                <li><a href="#softskills">Soft Skills</a></li>
+                <li><a target="_blank" href="https://vinicius-lopes-alves.netlify.app/">Portifolio <img class="link-externo" src="assets/external-link.svg" alt=" "></a></li>
+            </ul>
+        </nav>
+    
+        <nav class="menu-mobile">
+            <img id="hamburguer-menu" src="assets/hamburguer.png" alt="Menu">
+            <ul id="menu">
+                <li><a onclick="closeMenu()" href="#experiencia">Experiência</a></li>
+                <li><a onclick="closeMenu()" href="#educacao">Educação</a></li>
+                <li><a onclick="closeMenu()" href="#cursos">Cursos</a></li>
+                <li><a onclick="closeMenu()" href="#hardskills">Hard Skills</a></li>
+                <li><a onclick="closeMenu()" href="#softskills">Soft Skills</a></li>
+                <li><a onclick="closeMenu()" target="_blank" href="https://vinicius-lopes-alves.netlify.app/">Portifolio <img class="link-externo" src="assets/external-link.svg" alt=" "></a></li>
+            </ul>
+        </nav>
+    
+        <header>
+            <div class="content">
+                <div>
+                    <h1>Vinicius Lopes Alves</h1>
+                    <h2>Desenvolvedor Front-End</h2>
+                </div>
+                <img src="assets/perfil.png" alt="Vinicius Lopes Alves">
+            </div>
+        </header>
+    
+        <section>
+            <div class="container">
+                <h3 class="subtitle">Sobre mim</h3>
+                <p>Formado em Análise e Desenvolvimento de Sistemas, sempre buscando novosconhecimentos e desafios.</p>
+                <p>Tenho aptidão para aprender e muita sede de conhecimento.</p>
+                <p>Sou pró-ativo, comunicativo e adaptável a mudanças.</p>
+            </div>
+        </section>
+    
+        <section>
+            <div class="container" id="experiencia">
+                <h3 class="subtitle">Experiência Profissional</h3>
+    
+                <div class="bloco">
+                    <div>
+                        <p class="cargo"><strong>Assistente administrativo</strong></p>
+                        <span class="empresa">Indústria e Comércio Teplast <br> Mar / 2018 - Fev / 2019</span>
+                    </div>
+                    <div>
+                        <ul>
+                            <li>Controle de inventário;</li>
+                            <li>Atendimento ao Cliente;</li>
+                            <li>Artes de gravura dos produtos finais;</li>
+                        </ul>
+                    </div>
+                </div>
+    
+                <div class="bloco">
+                    <div>
+                        <p class="cargo"><strong>Soldado</strong></p>
+                        <span class="empresa">Força Aérea Brasileira <br> Mar / 2016 - Fev / 2018</span>
+                    </div>
+                    <div>
+                        <ul>
+                            <li>Mecânica automotiva;</li>
+                            <li>Motorista de Autoridades;</li>
+                            <li>Outras atribuições militares</li>
+                        </ul>
+                    </div>
+                </div>
+    
+                <div class="bloco">
+                    <div>
+                        <p class="cargo"><strong>Desenvolvedor Front-End</strong></p>
+                        <span class="empresa">Agência Foster <br> Ago / 2020 - Atual</span>
+                    </div>
+                    <div>
+                        <ul>
+                            <li>Desenvolvimento de newsletters e approved emails,</li>
+                            <li>Desenvolvimento e manutenção de páginas web:</li>
+                            <li>HTML;</li>
+                            <li>CSS;</li>
+                            <li>Javascript;</li>
+                            <li>Adobe Experience Manager;</li>
+                            <li>Site Factory (Bayer® - WSF);</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <section>
+            <div class="container" id="educacao">
+                <h3 class="subtitle">Educação</h3>
+                <ul>
+                    <li>Colégio Jardim São Paulo - Ensino Fundamental e Ensino Médio</li>
+                    <li><strong>Análise e Desenvolvimento de Sistemas</strong> - Anhanguera (2020 -2022)</li>
+                </ul>
+            </div>
+        </section>
+    
+        <section>
+            <div class="container" id="cursos">
+                <h3 class="subtitle">Cursos Extracurriculares</h3>
+                <div class="cursos">
+                    <ul>
+                        <li>Formação Angular 13 (Udemy) - <a target="_blank" href="https://www.udemy.com/certificate/UC-4e649f5e-04d8-474f-a12e-1245760cc0cd/">Ver certificado <img class="link-externo" src="assets/external-link.svg" alt=" "></a></li>
+                        <li>Angular 9 Essencial (Udemy)</li>
+                        <li>Introdução ao Angular 8 (Udemy) - <a target="_blank" href="https://www.dio.me/certificate/EF715EC5/share">Ver certificado <img class="link-externo" src="assets/external-link.svg" alt=" "></a></li>
+                        <li>Web Design Completo: HTML5, CSS3 e JavaScript (Udemy) - <a target="_blank" href="https://www.udemy.com/certificate/UC-d84e1369-b490-46e1-bf03-37b121de6dd3/">Ver certificado <img class="link-externo" src="assets/external-link.svg" alt=" "></a></li>
+                        <li>Digital Marketing Fundamentals (Google)</li>
+                        <li>HTML e CSS na prática (Fundação Bradesco)</li>
+                        <li>HTML - Avançado (Fundação Bradesco)</li>
+                        <li>Inovando com CSS (Fundação Bradesco)</li>
+                        <li>Programação para internet com Javascript (D.I. One)</li>
+                        <li>Bootstrap 4 (Udemy) - <a target="_blank" href="https://www.udemy.com/certificate/UC-450d803a-9452-4ddd-8d4b-c844ddab3280/">Ver certificado <img class="link-externo" src="assets/external-link.svg" alt=" "></a></li>
+                        <li>Entendendo o ECMAScript 6 - <a target="_blank" href="https://www.udemy.com/certificate/UC-f7b5309b-3b3d-4ebd-a9af-f23b92e04775/">Ver certificado <img class="link-externo" src="assets/external-link.svg" alt=" "></a></li>
+                        <li>Lógica de Programação (Senai)</li>
+                    </ul>
+                    
+                    <ul>
+                        <li>UX & Design Thinking (Udemy) - <a target="_blank" href="https://www.udemy.com/certificate/UC-a44ab055-1011-4955-bc03-3604f128bc99/">Ver certificado <img class="link-externo" src="assets/external-link.svg" alt=" "></a></li>
+                        <li>UX / UI : Fundamentos para o design de interface (USP / Coursera) - <a target="_blank" href="https://www.coursera.org/account/accomplishments/verify/SUHAGY92WF34">Ver certificado <img class="link-externo" src="assets/external-link.svg" alt=" "></a> </li>
+                        <li>UX & UI Design (Instituto TIM Tec)</li>
+                        <li>User Experience (Universidade Anhembi Morumbi)</li>
+                        <li>Figma - Criação de protótipos de alta fidelidade (Cursae)</li>
+                        <li>Fundamentos do Design Gráfico (Fundação Bradesco)</li>
+                    </ul>
+                    
+                    <ul>
+                        <li>Fundamentos de TI: Hardware e Software (Fundação Bradesco)</li>
+                        <li>Computação Forense (Pensar Cursos) - <a target="_blank" href="https://www.pensarcursos.com.br/ava/certificado/MjkzNDg1OA==">Ver certificado <img class="link-externo" src="assets/external-link.svg" alt=" "></a></li>
+                        <li>Desvendando a Blockchain (Senai) - <a target="_blank" href="https://www.sp.senai.br/consulta-certificado?qrcode=00015526/5935567">Ver certificado <img class="link-externo" src="assets/external-link.svg" alt=" "></a></li>
+                        <li>Gestão de relacionamento com clientes CRM (HP)</li>
+                        <li>Proposta de valor exclusivo (HP)</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    
+        <section>
+            <div class="container" id="hardskills">
+                <h3 class="subtitle">Hard Skills</h3>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>SCSS</li>
+                    <li>JAVASCRIPT</li>
+                    <li>ANGULAR</li>
+                    <li>BOOTSTRAP</li>
+                    <li>FIGMA</li>
+                    <li>UX/UI</li>
+                </ul>
+            </div>
+        </section>
+    
+        <section>
+            <div class="container" id="softskills">
+                <h3 class="subtitle">Soft Skills</h3>
+                <ul>
+                    <li>Facilidade de Aprendizagem</li>
+                    <li>Motivado</li>
+                    <li>Organizado</li>
+                    <li>Trabalho em equipe</li>
+                    <li>Comunicativo</li>
+                    <li>Flexível</li>
+                </ul>
+            </div>
+        </section>
+    
+        <section>
+            <div class="container">
+                <h3 class="subtitle">Contato</h3>
+                <div class="contato">
+                    <a target="_blank" href="https://api.whatsapp.com/send?phone=5511993032513">
+                        <div class="bloco-contato">
+                            <img src="assets/cell.svg" alt="">
+                            <p>(11) 99303-2513 <img class="link-externo" src="assets/external-link.svg" alt=" "></p>
+                        </div>
+                    </a>
+        
+                    <a target="_blank" href="mailto:vilopesalves@hotmail.com">
+                        <div class="bloco-contato">
+                            <img src="assets/mail.svg" alt="">
+                            <p>vilopesalves@hotmail.com <img class="link-externo" src="assets/external-link.svg" alt=" "></p>
+                        </div>
+                    </a>
+        
+                    <a target="_blank" href="linkedin.com/in/vinicius-lopes-alves/">
+                        <div class="bloco-contato">
+                            <img src="assets/linkedin.svg" alt="">
+                            <p>Linkedin <img class="link-externo" src="assets/external-link.svg" alt=" "></p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+    
+        <section id="portifolio">
+            <div class="container portifolio">
+                <h3 class="subtitle"><a href="https://vinicius-lopes-alves.netlify.app/">Portifolio</a></h3>
+                <img src="assets/qr-code.png" alt="">
+            </div>
+        </section>
+    
+        <footer></footer>
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>
+
+
